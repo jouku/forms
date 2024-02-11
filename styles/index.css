@@ -1,3 +1,75 @@
 body {
     background-color: #9DBEBB;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 954px;
+    height: 594px;
+    display: flex;
+}
+
+.left {
+    width: 609px;
+    height: 594px;
+    background-color: #BE0909;
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    width: 345px;
+    height: 594px;
+    background-color: #FFB039;
+}
+
+.duck-image {
+    position: absolute;
+    left: 335px;
+    bottom: 150px;
+}
+
+label,
+input {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.submit-button {
+    background-color: #468189;
+    width: 202px;
+    height: 48px;
+    border: 0px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.text-input {
+    outline: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #9DBEBB;
+}
+
+
+.text-input::placeholder {
+    color: #FFFFFF;
+}
+
+.width-400 {
+    width: 400px;
+}
+
+.width-160 {
+    width: 160px;
 }
