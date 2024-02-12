@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,15 +19,15 @@
     <div class="container">
         <div class="left">
             <form action="">
-                <label>FULL NAME</label>
-                <input class="text-input width-400" type="text">
-                <label>EMAIL</label>
-                <input class="text-input width-160" type="text" placeholder="Your Email">
-                <label>MESSAGE REGARDING</label>
-                <input class="text-input width-160" type="text">
-                <label>MESSAGE</label>
-                <input class="text-input width-400" type="text" placeholder="Your Messages">
-                <input class="submit-button" type="button" value="SEND MESSAGE">
+                <label for="name">FULL NAME *</label>
+                <input id="name" class="text-input width-400" type="text" required>
+                <label for="email">EMAIL *</label>
+                <input id="email" class="text-input width-160" type="email" placeholder="Your Email" required>
+                <label for="message-regarding">MESSAGE REGARDING</label>
+                <input id="message-regarding" class="text-input width-160" type="text">
+                <label for="message">MESSAGE</label>
+                <input id="message" class="text-input width-400" type="text" placeholder="Your Messages">
+                <input class="submit-button" type="submit" value="SEND MESSAGE">
             </form>
         </div>
         <div class="right">
