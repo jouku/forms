@@ -33,7 +33,7 @@ body {
 label,
 input {
     display: block;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
 }
 
@@ -50,6 +50,9 @@ form {
     border-radius: 40px;
     color: #FFFFFF;
     font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 20px;
 }
 
 .text-input {
